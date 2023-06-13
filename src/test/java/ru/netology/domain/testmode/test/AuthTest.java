@@ -1,16 +1,14 @@
 package ru.netology.domain.testmode.test;
 
-import com.codeborne.selenide.Condition;
-import com.github.javafaker.Faker;
-import org.junit.jupiter.api.BeforeAll;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.Keys;
+
 import ru.netology.domain.testmode.data.DataGenerator;
 
 import java.time.Duration;
-import java.util.Locale;
+
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
